@@ -1,1 +1,1 @@
-# Default QAZ Layout full size spacebar
+# QAZ big space layout with solenoid.

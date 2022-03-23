@@ -1,3 +1,3 @@
 # QAZ big space layout with solenoid.
 
-![Layout](https://github.com/ImYourHuckleberry/qmk_firmware/blob/master/keyboards/tominabox1/qaz/keymaps/big_space_solenoid/layout.png?raw=true)
+![Layout](https://cdn.discordapp.com/attachments/952082177733054524/956212770699870228/layout.png)

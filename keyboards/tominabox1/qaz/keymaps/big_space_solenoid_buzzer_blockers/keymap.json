@@ -115,6 +115,8 @@
         "KC_NO"
       ],
       [
+
+        "KC_G",
         "HPT_TOG",
         "HPT_RST",
         "HPT_FBK",
@@ -147,9 +149,9 @@
         "KC_NO",
         "KC_NO",
         "KC_NO",
-        "KC_NO",
         "KC_NO"
       ]
+
     ],
     "author": ""
   }

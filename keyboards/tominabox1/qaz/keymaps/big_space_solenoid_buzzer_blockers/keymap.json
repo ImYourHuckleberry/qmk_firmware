@@ -115,8 +115,6 @@
         "KC_NO"
       ],
       [
-
-        "KC_G",
         "HPT_TOG",
         "HPT_RST",
         "HPT_FBK",
@@ -124,6 +122,7 @@
         "HPT_DWLD",
         "RESET",
         "EEP_RST",
+        "KC_NO",
         "KC_NO",
         "KC_NO",
         "KC_NO",

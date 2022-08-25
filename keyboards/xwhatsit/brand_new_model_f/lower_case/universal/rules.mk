@@ -48,6 +48,7 @@ HD44780_ENABLE = no         # Enable support for HD44780 based LCDs
 RAW_ENABLE = yes
 HAPTIC_ENABLE = yes
 HAPTIC_DRIVER += SOLENOID
+DEBOUNCE_TYPE = sym_defer_g
 
 CUSTOM_MATRIX=lite
 SRC += keyboards/xwhatsit/matrix.c keyboards/xwhatsit/util_comm.c

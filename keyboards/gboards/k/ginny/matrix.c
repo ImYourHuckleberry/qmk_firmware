@@ -156,17 +156,17 @@ uint8_t matrix_scan(void) {
     for (uint8_t i = 0; i < MATRIX_I2C; i++) {
         // select rows from left and right hands
         uint8_t i2c_index = i;
-        uint8_t main_index = i + MATRIX_I2C; 
+        uint8_t main_index = i + MATRIX_I2C;
         select_row(i2c_index);
 
-        if (i < MATRIX_MAIN) 
+        if (i < MATRIX_MAIN)
 						select_row(main_index);
 
         // we don't need a 30us delay anymore, because selecting a
         // left-hand row requires more than 30us for i2c.
 
         changed |= store_raw_matrix_row(i2c_index);
-        if (i < MATRIX_MAIN) 
+        if (i < MATRIX_MAIN)
         	changed |= store_raw_matrix_row(main_index);
 
         unselect_rows();
@@ -196,7 +196,7 @@ void matrix_print(void) {
     print("\nr/c 0123456789ABCDEF\n");
     for (uint8_t row = 0; row < MATRIX_ROWS; row++) {
         phex(row); print(": ");
-        pbin_reverse16(matrix_get_row(row));
+        print_bin_reverse16(matrix_get_row(row));
         print("\n");
     }
 }
